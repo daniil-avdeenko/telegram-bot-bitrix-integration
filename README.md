@@ -20,4 +20,4 @@
      ngrok http 5000
    2) Скопируйте полученный HTTPS-адрес (например, https://abc123.ngrok-free.dev).
 6. Зарегистрируйте вебхук в Telegram, выполнив запрос:
-   https://api.telegram.org/bot<ваш_токен>/setWebhook?url=<ваш_HTTP-адрес_ngrok>
+   https://api.telegram.org/bot<ваш_токен>/setWebhook?url=<ваш_HTTP-адрес_ngrok>/webhook
