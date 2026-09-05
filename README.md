@@ -1,2 +1,16 @@
-# telegram-bot-bitrix-integration
-Telegram bot for automatic lead creation in Bitrix24 via REST API
+# Telegram-бот для интеграции с Битрикс24
+
+Бот принимает сообщения от пользователей и автоматически создаёт лиды в Битрикс24 через REST API.
+
+## Технологии
+- Python 3.14
+- Flask (веб-сервер)
+- requests (HTTP-запросы)
+- python-dotenv (переменные окружения)
+
+## Как запустить
+1. Склонируйте репозиторий.
+2. Установите зависимости: `pip install -r requirements.txt`.
+3. Создайте файл `.env` и укажите токены:
+4. T_token=ваш_токен_Telegram
+5. B_webhook=ваш_вебхук_bitrix24
